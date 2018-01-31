@@ -1,16 +1,6 @@
 {
   "blogs": [
     {
-      "id": 0,
-      "name": "Andrew Garvin",
-      "userID": 0,
-      "image": "http://delivery.gettyimages.com/xr/109072999.jpg?v=1&c=IWSAsset&k=3&d=77BFBA49EF87892102A727B1636DE2E61B7D42B8BC1F6B9121A86BE89F8F9103331E400E51A7E00DE30A760B0D811297",
-      "title": "Ode To Brennys Cow",
-      "subTitle": "A Gold-starred Haiku",
-      "text": "Hello.\n\n I'd like to tell the story of Farmer Brenny, and his cow.\n\n Years ago, in the land and time of St. Siaosi, there lived a man named Mr. Brenny. This man was a young peddler, who's only desire was to become a merchant. Though fortune did not always smile upon him, he felt deep within his heart that someday, he would do great things.\n\n On the ten and seventh day, of the seventh month, in the Year of our Lord, two thousand and seventeen, Mr. Brenny's life was about to change. He did not know this, but on this very day, he would meet Mrs. Anne Drue.\n\n Mrs. Drue was a quaint individual, who was looking for someone to run her family's farm, so that she could travel the world. Upon meeting Mr. Brenny, Anne knew that her search was over.\n\n Anne decided to approach Brennys uncle, Lord Lloyd of Alans Mill, with the intent to hire Brenny for the next seven years. Upon signing the contract, Anne and Mr. Brenny were on their way.\n\n Seven years hence, our young adventurers Anne and Mr. Brenny decided to part ways, after the Kings Captain, Lt. Jaime Robberson moved the battleground of the war to their old-town farm.\n\n\nThe end.",
-      "featured": true
-    },
-    {
       "id": 1,
       "name": "Brennon Schow",
       "userID": 2,
@@ -216,25 +206,25 @@
       "featured": true
     },
     {
-      "title": "Testing",
-      "subTitle": "provo",
-      "image": "https://unsplash.it/700/400",
-      "text": "dasj;lfksjfl;aksdjflaskj",
-      "id": 22
+      "title": "Jordan 2",
+      "subTitle": "Sub Jordan",
+      "image": "Photo Herre",
+      "text": "content content content",
+      "id": 24
     }
   ],
   "users": [
     {
-      "id": 0,
       "name": "Andrew Garvin",
       "img": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAsQAAAAJGU2NzdkMjliLTdkNzgtNGE4Zi1iZjliLWIzNGViOTQxNTg1ZA.jpg",
-      "desc": "I’m all about that bass… And by bass I mean I’m just super cool, ya know? Specialities include Dad Jokes, Programming, Wakeboarding, and other st00f"
+      "desc": "I’m all about that bass… And by bass I mean I’m just super cool, ya know? Specialities include Dad Jokes, Programming, Wakeboarding, and other st00f",
+      "id": 0
     },
     {
-      "id": 1,
-      "name": "Emily Keator",
+      "name": "Emily Keator - test",
       "img": "https://s1.postimg.org/71h3b5nlj3/IMG_3987.jpg",
-      "desc": "Emily Keator grew up in Florida but likes to deny it, and graduated from Davidson College with a degree in biology. If you interrupt her reading, she will bite you."
+      "desc": "Emily Keator grew up in Florida but likes to deny it, and graduated from Davidson College with a degree in biology. If you interrupt her reading, she will bite you.",
+      "id": 1
     },
     {
       "id": 2,
@@ -301,6 +291,24 @@
       "name": "Leo",
       "img": "https://unsplash.it/300/?random",
       "desc": "I'm not real. I'm just a pseudonym of a guy that doesn't like waiting for fast food workers to figure out how to spell his name."
+    },
+    {
+      "name": "Jordan Bush",
+      "img": "https://images.pexels.com/photos/450271/pexels-photo-450271.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "desc": "A description of Jordan Bush",
+      "id": 13
+    },
+    {
+      "name": "Jordan Bush",
+      "img": "https://images.pexels.com/photos/450271/pexels-photo-450271.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "desc": "A description of Jordan Bush",
+      "id": 14
+    },
+    {
+      "name": "New user",
+      "img": "",
+      "desc": "New jfdsakjadslfjalksd",
+      "id": 15
     }
   ]
 }

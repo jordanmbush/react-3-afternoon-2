@@ -11,16 +11,42 @@ class NewUser extends Component{
             img: '',
             desc: ''
         }
+        this.addUser = this.addUser.bind(this);
+        this.deleteUser = this.deleteUser.bind(this);
+        this.updateUser = this.updateUser.bind(this);
     }
     
     // insert addUser
+    addUser() {
+        let user = Object.assign({}, this.state);
 
+        axios.post('/api/users', user).then( response => {
+            let user = response.data;
+            this.props.history.push(`/user/${user.id}`);
+        })
+    }
 
     // insert updateUser    
+    updateUser() {
+        // let user = this.state;
+        let user = {
+            name: this.state.name,
+            img: this.state.img,
+            desc: this.state.desc
+        }
 
+        axios.put(`/api/user/${this.props.match.params.id}`, user).then( response => {
+            let user = response.data;
+            this.props.history.push(`/user/${user.id}`);
+        })
+    }
 
     // insert deleteUser
-
+    deleteUser() {
+        axios.delete(`api/user/${this.props.match.params.id}`).then( response => {
+            this.props.history.push(`/search/`);
+        })
+    }
 
     render(){
         return(
@@ -52,7 +78,7 @@ class NewUser extends Component{
                         this.state.id >= 0
                         ?
                         <span>
-                            <button className='delete-button'>Delete User</button>
+                            <button className='delete-button' onClick={this.deleteUser}>Delete User</button>
                             <button type='submit'>Update</button>
                         </span>
                         :
